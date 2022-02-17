@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
                 e.target.parentElement.style.backgroundColor = "#AE5F75";
                 e.target.nextElementSibling.style.color = "#e15f41";
                 e.target.previousElementSibling.style.color = "#f19066";
-            }else {
+            }else if(e.target.checked == true){
                 e.target.parentElement.style.backgroundColor = "#6D335C";
                 e.target.nextElementSibling.style.color = "white";
                 e.target.previousElementSibling.style.color = "white";
