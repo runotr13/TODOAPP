@@ -58,7 +58,7 @@ window.addEventListener("load",() =>{
                 e.target.parentElement.style.textDecoration = "line-through"
                 e.target.parentElement.style.fontSize = "12px"
                 mainspan.innerText = Number(mainspan.innerText) + 1
-            }else{
+            }else if(e.target.checked ==false){
                 e.target.parentElement.style.textDecoration = "none"
                 e.target.parentElement.style.fontSize = "15px"
                 mainspan.innerText = Number(mainspan.innerText) - 1
